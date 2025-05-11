@@ -317,6 +317,12 @@ class QRViewControllerWeb implements QRViewController {
     // TODO: implement scanInvert
     throw UnimplementedError();
   }
+
+  @override
+  Future<bool> cameraStatu() {
+    // TODO: implement cameraStatu
+    throw UnimplementedError();
+  }
 }
 
 Widget createWebQrView(
